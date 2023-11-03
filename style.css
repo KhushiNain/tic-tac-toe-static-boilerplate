@@ -28,6 +28,7 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-gap: 12px;
 }
 .credit{
@@ -38,5 +39,11 @@ body{
 .box{
     background-color: white;
     border-radius: 10px;
+    box-shadow : 2px 2px Silver ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAB201;
+    font-size: 80px;
 }
 
